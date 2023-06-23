@@ -8,7 +8,7 @@ function UserList({ users }) {
         <div className="user-item" key={user.id}>
             <p className='user-id'>{user.id}</p>
           <img className='user-avatar' src={user.avatar} alt={user.first_name} />
-          <p>{user.first_name}</p>
+          <p className='userName'>{user.first_name}</p>
         </div>
       ))}
     </div>

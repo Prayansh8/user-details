@@ -30,3 +30,10 @@
   height: 250px;
   border-radius: 12px;
 }
+
+.userName{
+    font-size: 20px;
+    padding: 0 2vh;
+    font-weight: 600;
+    margin: 2vh 0;
+}
